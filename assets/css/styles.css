@@ -789,7 +789,7 @@ transition: filter 0.4s;
   transform: translateX(-3rem);
 }
 
-.contact__description{
+.contact__description-1{
   color: var(--title-color);
   font-weight: var(--font-medium);
   margin-bottom: 2rem;
@@ -903,7 +903,7 @@ transition: filter 0.4s;
 }
 
 /* Move label up & sticky label */
-.contact__input:focus +.contact__label,
+.contact__input:focus + .contact__label,
 .contact__input:not(:placeholder-shown)
 .contact__input:not(:focus) + .contact__label{
   opacity: 1;
@@ -969,6 +969,43 @@ font-weight: var(--font-semi-bold);
 
 }
 /*=============== FOOTER ===============*/
+.footer{
+  background-color: var(--black-color);
+}
+
+.footer__container{
+  padding-block: 3rem 2rem;
+}
+
+.footer__links{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.footer__link{
+  color: var(--white-color);
+  transition: color 0.4s;
+}
+
+.footer__link:hover{
+  color: var(--text-color-light);
+}
+
+.footer__copy{
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+  text-align: center;
+}
+
+.footer__copy a{
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+}
+
+
+
+
 
 
 /*=============== SCROLL BAR ===============*/
