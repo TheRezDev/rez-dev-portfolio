@@ -1112,20 +1112,15 @@ font-weight: var(--font-semi-bold);
   transform: translateY(-0.5rem);
 }
 
-
-
-
 /* Show Scroll Up */
 
 .show-scroll{
   bottom: 3rem;
 }
 
-
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (min-width: 340px) {
   .container{
     margin-inline: 1rem;
   }
@@ -1201,7 +1196,6 @@ font-weight: var(--font-semi-bold);
     grid-template-columns: repeat(2, 350px);
   }
 }
-
 
 /* For large devices */
 @media screen and (min-width: 1150px){
@@ -1369,6 +1363,7 @@ font-weight: var(--font-semi-bold);
     padding: 0.5rem;
   }
 
+  /* About */
 
   .about__container{
     grid-template-columns: 440px 525px ;
@@ -1438,8 +1433,7 @@ font-weight: var(--font-semi-bold);
     font-size: 1.5rem;
   }
 
-
-
+  /* Services */
 
 .services__container{
   grid-template-columns: repeat(3, 282px);
@@ -1468,7 +1462,7 @@ font-weight: var(--font-semi-bold);
   transform: translate(1.25rem, 1.25rem);
 }
 
-
+/* Projects */
 
 .projects__container{
   grid-template-columns: repeat(3 , 352px);
